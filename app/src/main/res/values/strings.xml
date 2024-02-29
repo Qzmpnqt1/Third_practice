@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TRPP_Practice_2</string>
+    <string name="button_text">Нажми меня</string>
+    <string name="main_edit_hint">Введите текст</string>
+    <string name="privetstvie">Приветствую</string>
+    <string name="sending_data">Отправить данные</string>
+    <string name="main_button">Открыть second_activity</string>
+</resources>

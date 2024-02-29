@@ -1,0 +1,38 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/LemonChiffon">
+
+        <TextView
+            android:id="@+id/relative_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/privetstvie"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/main_edit_hint"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:textColor="@color/Aqua"
+            android:textSize="@dimen/button_textSize"
+            android:layout_marginTop="100dp"/>
+
+        <ImageView
+            android:layout_width="@dimen/picture_size"
+            android:layout_height="@dimen/picture_size"
+            android:src="@drawable/page1_img1"
+            android:layout_marginTop="@dimen/picture_marginTop"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</layout>
